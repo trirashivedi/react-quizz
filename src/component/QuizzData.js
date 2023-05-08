@@ -1,4 +1,4 @@
-const questions=[
+export const questions=[
     {
     questionText : "How many days are there in week?",
     answerOption : [

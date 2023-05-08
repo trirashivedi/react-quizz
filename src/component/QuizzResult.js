@@ -1,5 +1,5 @@
 import React from 'react'
-import questions from "./QuizzData"
+import {questions} from "./QuizzData"
 
 const QuizzResult = (props) => {
   return (

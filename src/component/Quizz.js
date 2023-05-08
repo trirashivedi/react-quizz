@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./quiz.css";
-import questions from "./QuizzData";
+import {questions} from "./QuizzData";
 import QuizzResult from "./QuizzResult"
 
 
@@ -23,7 +23,7 @@ const Quizz = () => {
   const handleNextOption =()=>{
     setClicked(false)
     const nextQuestion = currentQuestion+1;
-    if(nextQuestion<questions.length){
+    if(nextQuestion < questions.length){
       setCurrentQuestion(nextQuestion);
     }else{
       setShowResult(true);
@@ -34,7 +34,7 @@ const Quizz = () => {
      setCorrectAns(0)
      setShowResult(false)
   }
- 
+
 
   return (
     <div className='app'>
