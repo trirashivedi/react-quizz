@@ -7,10 +7,10 @@ import QuizzResult from "./QuizzResult"
 
 const Quizz = () => {
   const[currentQuestion,setCurrentQuestion]=useState(0);
-  const[score,setScore] =useState(0);
-  const[CorrectAns,setCorrectAns]=useState(0);
-  const[showResult, setShowResult]=useState(false);
-  const[clicked,setClicked] =useState(false);
+  const[score,setScore] = useState(0);
+  const[CorrectAns,setCorrectAns] = useState(0);
+  const[showResult, setShowResult] = useState(false);
+  const[clicked,setClicked] = useState(false);
 
   const handleAnswerOption=(isCorrect)=>{
     if(isCorrect){
